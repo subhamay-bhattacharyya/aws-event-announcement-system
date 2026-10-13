@@ -1,6 +1,8 @@
 AWSTemplateFormatVersion: '2010-09-09'
 
-Description: 'Root CloudFormation template that invokes nested stacks for AWS Event Announcement System (S3 storage)'
+Description: >-
+  Root CloudFormation template for the AWS Event Announcement System. Creates:
+  - S3 bucket with versioning enabled, public access blocked, and  KMS encryption
 
 Metadata:
   AWS::CloudFormation::Interface:
